@@ -320,6 +320,14 @@ export const NETWORKS = {
     blockExplorer: "https://kovan.etherscan.io/",
     faucet: "https://gitter.im/kovan-testnet/faucet", //https://faucet.kovan.network/
   },
+  sepolia: {
+    name: "sepolia",
+    color: "#87ff65",
+    chainId: 11155111,
+    faucet: "https://faucet.sepolia.dev/",
+    blockExplorer: "https://sepolia.etherscan.io/",
+    rpcUrl: `https://sepolia.infura.io/v3/${INFURA_ID}`,
+  },
   rinkeby: {
     name: "rinkeby",
     color: "#e0d068",

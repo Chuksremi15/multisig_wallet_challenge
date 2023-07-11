@@ -48,7 +48,7 @@ contract MetaMultiSigWallet {
             require(owner != address(0), "constructor: zero address");
             require(!isOwner[owner], "constructor: owner not unique");
             isOwner[owner] = true;
-            // emit Owner(owner, isOwner[owner]);
+            emit Owner(owner, isOwner[owner]);
         }
         chainId = _chainId;
     }
